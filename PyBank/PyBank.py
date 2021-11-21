@@ -62,7 +62,7 @@ with open (csvpath, 'r') as csvfile:
             
             previous_month = int(row[1])
             
-    print("Financial Anaylsis")
+    print("Financial Analysis")
     print("-----------------------")
     print(f"Total Months: {month_count-1}")
     print(f"Total PnL: ${total_pnl}")
